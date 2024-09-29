@@ -1,17 +1,20 @@
 # 22MIS1059_Priyadharshini-K
 Application of Neural Networks _ Self Organizing Map 
+
 Abstract
-This project implements a Self-Organizing Map (SOM) to segment customers based on their purchase behavior using the Online Retail Dataset. By clustering customers according to their purchasing characteristics such as quantity and unit price, we aim to identify patterns that could aid in customer segmentation, marketing strategies, or customer retention initiatives.
+This study uses a Self-Organizing Map (SOM) to conduct consumer segmentation on an online retail dataset. The SOM, an unsupervised neural network, groups customers based on their purchase behavior, allowing firms to discover distinct client segments. The dataset had been processed and standardized before being trained to map multidimensional data to a 2D grid using the SOM. Each consumer was allocated to a "winning" neuron, which organized them into clusters. The project includes a display of the SOM distance map, segment results, a file that can be executed, and a README that has extensive instructions for running the implementation
 
 About the Dataset
 Dataset Name: Online Retail Dataset
 Source: Available on Kaggle
+
 Description: This dataset contains transactional data from a UK-based online retailer from 2010-2011. The key columns used in this analysis include:
 CustomerID: Unique identifier for each customer
 Quantity: The number of items purchased per transaction
 UnitPrice: The price per item in the transaction
 InvoiceNo: Invoice number representing the transaction
 InvoiceDate: Date of the transaction
+
 Output
 The output of this project includes:
 
